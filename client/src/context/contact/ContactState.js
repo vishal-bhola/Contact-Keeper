@@ -14,36 +14,27 @@ import {
 
  const ContactState = props => {
      const initialState = {
-         contact: [
+         contacts: [
             {
-                "type": "personal",
-                "_id": "5edbb3299036e13f30d4572f",
-                "name": "khushboo",
-                "email": "khushboo@gmail.com",
-                "phone": "111-222-333",
-                "user": "5eda372ad5f38a45f86b370d",
-                "date": "2020-06-06T15:15:53.587Z",
-                "__v": 0
+                id: 1,
+                name: "khushboo",
+                email: "khushboo@gmail.com",
+                phone: "111-222-333",
+                type: "personal"
             },
             {
-                "type": "personal",
-                "_id": "5edbb30e9036e13f30d4572e",
-                "name": "reshabh",
-                "email": "reshabh@gmail.com",
-                "phone": "1234566890",
-                "user": "5eda372ad5f38a45f86b370d",
-                "date": "2020-06-06T15:15:26.402Z",
-                "__v": 0
+                id: 2,
+                name: "khusasdhboo",
+                email: "khuoo@gmail.com",
+                phone: "111-222-33454",
+                type: "personal"
             },
             {
-                "type": "professional",
-                "_id": "5edbb2ef9036e13f30d4572d",
-                "name": "paras",
-                "email": "paras@gmail.com",
-                "phone": "8683045623",
-                "user": "5eda372ad5f38a45f86b370d",
-                "date": "2020-06-06T15:14:55.851Z",
-                "__v": 0
+                id: 3,
+                name: "khushb",
+                email: "khusho@gmail.com",
+                phone: "111-22-333",
+                type: "professional"
             }
         ]
      };
@@ -75,4 +66,4 @@ import {
      )
  }
 
- export default ContactState
+ export default ContactState;
