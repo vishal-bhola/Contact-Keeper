@@ -17,22 +17,22 @@ import {
          contacts: [
             {
                 id: 1,
-                name: "khushboo",
+                name: "Khushboo",
                 email: "khushboo@gmail.com",
                 phone: "111-222-333",
                 type: "personal"
             },
             {
                 id: 2,
-                name: "khusasdhboo",
-                email: "khuoo@gmail.com",
+                name: "Reshabh",
+                email: "reshabh@gmail.com",
                 phone: "111-222-33454",
                 type: "personal"
             },
             {
                 id: 3,
-                name: "khushb",
-                email: "khusho@gmail.com",
+                name: "Paras",
+                email: "paras@gmail.com",
                 phone: "111-22-333",
                 type: "professional"
             }
