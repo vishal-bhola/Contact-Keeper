@@ -91,6 +91,7 @@ import {
 
 
     // Logout
+    const logout = () => dispatch({type: LOGOUT});
 
     // Clear Errors
     const clearErrors = () => dispatch({type: CLEAR_ERRORS})
@@ -106,7 +107,8 @@ import {
              register,
              login,
              loadUser,
-             clearErrors
+             clearErrors,
+             logout
          }}>
              { props.children }
          </AuthContext.Provider>
